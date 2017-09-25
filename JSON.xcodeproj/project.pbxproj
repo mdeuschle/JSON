@@ -13,6 +13,11 @@
 		A8BC9FBE1F79928700F330A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BC9FBC1F79928700F330A5 /* LaunchScreen.storyboard */; };
 		A8BC9FC91F79928700F330A5 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FC81F79928700F330A5 /* JSONTests.swift */; };
 		A8BC9FD41F79928700F330A5 /* JSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FD31F79928700F330A5 /* JSONUITests.swift */; };
+		A8BC9FE71F799C0000F330A5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FE61F799C0000F330A5 /* Constants.swift */; };
+		A8BC9FEB1F79A14000F330A5 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FEA1F79A14000F330A5 /* RootVC.swift */; };
+		A8BC9FED1F79A15600F330A5 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FEC1F79A15600F330A5 /* DetailVC.swift */; };
+		A8BC9FEF1F79A22F00F330A5 /* BikeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FEE1F79A22F00F330A5 /* BikeTableCell.swift */; };
+		A8BC9FF11F79A3E600F330A5 /* BikeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FF01F79A3E600F330A5 /* BikeCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		A8BC9FCF1F79928700F330A5 /* JSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BC9FD31F79928700F330A5 /* JSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUITests.swift; sourceTree = "<group>"; };
 		A8BC9FD51F79928700F330A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BC9FE61F799C0000F330A5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A8BC9FEA1F79A14000F330A5 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		A8BC9FEC1F79A15600F330A5 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		A8BC9FEE1F79A22F00F330A5 /* BikeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTableCell.swift; sourceTree = "<group>"; };
+		A8BC9FF01F79A3E600F330A5 /* BikeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +140,8 @@
 		A8BC9FE11F79998800F330A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A8BC9FEA1F79A14000F330A5 /* RootVC.swift */,
+				A8BC9FEC1F79A15600F330A5 /* DetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,6 +149,8 @@
 		A8BC9FE21F79999B00F330A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A8BC9FEE1F79A22F00F330A5 /* BikeTableCell.swift */,
+				A8BC9FF01F79A3E600F330A5 /* BikeCollectionCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +165,7 @@
 		A8BC9FE41F7999A500F330A5 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				A8BC9FE61F799C0000F330A5 /* Constants.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -296,7 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BC9FEB1F79A14000F330A5 /* RootVC.swift in Sources */,
+				A8BC9FEF1F79A22F00F330A5 /* BikeTableCell.swift in Sources */,
+				A8BC9FF11F79A3E600F330A5 /* BikeCollectionCell.swift in Sources */,
+				A8BC9FED1F79A15600F330A5 /* DetailVC.swift in Sources */,
 				A8BC9FB41F79928700F330A5 /* AppDelegate.swift in Sources */,
+				A8BC9FE71F799C0000F330A5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

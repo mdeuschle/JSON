@@ -9,5 +9,12 @@
 import UIKit
 
 class BikeCollectionCell: UICollectionViewCell {
+
+    @IBOutlet weak var valueLabel: UILabel!
+
+    func config(value: String) {
+        valueLabel.text = value
+    }
     
+
 }

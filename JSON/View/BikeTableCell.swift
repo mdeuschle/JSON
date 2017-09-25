@@ -10,15 +10,9 @@ import UIKit
 
 class BikeTableCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var categoryLabel: UILabel!
+
+    func config(category: String) {
+        categoryLabel.text = category
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

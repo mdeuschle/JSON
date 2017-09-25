@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+enum SegueString: String {
+    case toDetailVC = "toDetailVC"
+}
+
+enum ReusableCell: String {
+    case tabelCell = "tableCell"
+    case collectionCell = "collectionCell"
+}
+
+enum URLString: String {
+    case json = "https://bikeshare.metro.net/stations/json/"
+}
