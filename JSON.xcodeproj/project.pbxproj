@@ -18,6 +18,9 @@
 		A8BC9FED1F79A15600F330A5 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FEC1F79A15600F330A5 /* DetailVC.swift */; };
 		A8BC9FEF1F79A22F00F330A5 /* BikeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FEE1F79A22F00F330A5 /* BikeTableCell.swift */; };
 		A8BC9FF11F79A3E600F330A5 /* BikeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FF01F79A3E600F330A5 /* BikeCollectionCell.swift */; };
+		A8BC9FF71F79ADE000F330A5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FF61F79ADE000F330A5 /* DataService.swift */; };
+		A8BC9FF91F79C23E00F330A5 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FF81F79C23E00F330A5 /* Bike.swift */; };
+		A8BC9FFD1F7AC7E500F330A5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC9FFC1F7AC7E500F330A5 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		A8BC9FEC1F79A15600F330A5 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		A8BC9FEE1F79A22F00F330A5 /* BikeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTableCell.swift; sourceTree = "<group>"; };
 		A8BC9FF01F79A3E600F330A5 /* BikeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeCollectionCell.swift; sourceTree = "<group>"; };
+		A8BC9FF61F79ADE000F330A5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A8BC9FF81F79C23E00F330A5 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
+		A8BC9FFC1F7AC7E500F330A5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,8 @@
 		A8BC9FE31F7999A000F330A5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8BC9FF81F79C23E00F330A5 /* Bike.swift */,
+				A8BC9FFC1F7AC7E500F330A5 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 		A8BC9FE51F7999AF00F330A5 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A8BC9FF61F79ADE000F330A5 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -311,9 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BC9FF91F79C23E00F330A5 /* Bike.swift in Sources */,
+				A8BC9FF71F79ADE000F330A5 /* DataService.swift in Sources */,
 				A8BC9FEB1F79A14000F330A5 /* RootVC.swift in Sources */,
 				A8BC9FEF1F79A22F00F330A5 /* BikeTableCell.swift in Sources */,
 				A8BC9FF11F79A3E600F330A5 /* BikeCollectionCell.swift in Sources */,
+				A8BC9FFD1F7AC7E500F330A5 /* Category.swift in Sources */,
 				A8BC9FED1F79A15600F330A5 /* DetailVC.swift in Sources */,
 				A8BC9FB41F79928700F330A5 /* AppDelegate.swift in Sources */,
 				A8BC9FE71F799C0000F330A5 /* Constants.swift in Sources */,

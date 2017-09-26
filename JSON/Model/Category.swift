@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct Category {
+
+    private(set) public var name: String
+
+    init(name: String) {
+        self.name = name
+    }
+}
+
+
+
